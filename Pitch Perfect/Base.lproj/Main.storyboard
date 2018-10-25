@@ -18,7 +18,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap tp record" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bSa-qX-Fqi">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap to record" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bSa-qX-Fqi">
                                 <rect key="frame" x="136" y="430" width="102" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -56,9 +56,9 @@
                     </view>
                     <navigationItem key="navigationItem" id="bW0-Vh-HMr"/>
                     <connections>
-                        <outlet property="RecordLabel" destination="bSa-qX-Fqi" id="EII-hG-tQz"/>
-                        <outlet property="RecordingButton" destination="PsR-Co-5Ys" id="Cg7-3f-LHG"/>
-                        <outlet property="StopRecordingButton" destination="DHZ-wd-zwf" id="aRH-VD-Ub1"/>
+                        <outlet property="recordLabel" destination="bSa-qX-Fqi" id="EII-hG-tQz"/>
+                        <outlet property="recordingButton" destination="PsR-Co-5Ys" id="Cg7-3f-LHG"/>
+                        <outlet property="stopRecordingButton" destination="DHZ-wd-zwf" id="aRH-VD-Ub1"/>
                         <segue destination="2cx-y1-mBj" kind="show" identifier="StopRecording" id="nme-Cd-DMw"/>
                     </connections>
                 </viewController>
